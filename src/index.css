@@ -1,0 +1,26 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.screens {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.screenn-page-right {
+  width: 50%;
+  margin-top: 45vh;
+}
+.screenn-page-left {
+  width: 50%;
+  margin-top: 45vh;
+}
+
+.screenn-item-left {
+  text-align: right;
+  margin-right: 10%;
+}
