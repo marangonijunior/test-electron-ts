@@ -41,7 +41,7 @@ const WeatherComponent = (props: FindWeatherProps) => {
       {loading ? (
         <CircularProgress />
       ) : (
-        <div>
+        <div id="#textWeather">
           <div>{weather?.name}</div>
           <div>Temp: {weather?.main.temp}</div>
           <div>Feels like: {weather?.main.feels_like}</div>

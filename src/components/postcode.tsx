@@ -44,7 +44,7 @@ const PostCodeComponent = (props: PostCodeProps) => {
       ) : (
         <TextField
           error={errorPostCode}
-          id="filled-error"
+          id="#inputPostCode"
           label="PostCode"
           defaultValue=""
           variant="filled"
